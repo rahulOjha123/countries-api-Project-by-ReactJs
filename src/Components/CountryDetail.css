@@ -1,0 +1,57 @@
+.country-his{
+    max-width: 1500px;
+   height: 86vh;
+    /* background-color: red; */
+}
+
+.country-details{
+    max-width: 800px;
+    height: 60vh;
+    background-color: rgb(233, 219, 219);
+    margin: auto;
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    border: 5px solid rgb(239, 232, 232);
+
+} 
+.country-details img{
+  
+    max-width: 250px;
+  
+   margin-right: 200px;
+   
+
+}
+.country-info{
+   
+    max-width: 300px;
+    height: auto;
+    display: inline-block;
+    
+}
+
+.country-info p,b{
+    font-size: 0.7rem;
+    margin:10px;
+}
+
+.backButton{
+    width: 100px;
+    height: auto;
+    background-color: rgb(247, 242, 242);
+    padding: 4px;
+    margin-left: 50px;
+    outline: 0;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.backButton .fa-solid{
+    padding-right: 10px;
+}
+
